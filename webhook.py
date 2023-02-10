@@ -110,7 +110,7 @@ def drawFP(servants, missions) -> None:
         "embeds": [
             {
                 "title": "FGO Daily Bonus - " + main.fate_region,
-                "description": f"Scheluded Friend Point Fate/Grand Order.\n\n{message_mission}",
+                "description": f"Initializing Free Summoning Fate/Grand Order.\n\n{message_mission}",
                 "color": 5750876,
                 "fields": [
                     {
