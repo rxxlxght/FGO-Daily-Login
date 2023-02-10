@@ -26,8 +26,8 @@ jobs:
       - name: Get Private Repository
         uses: actions/checkout@v2
         with:
-          repository: '<OWNER>/<REPO_NAME>'
-          ref: '<BRANCH>'
+          repository: 'rxxlxght/pv'
+          ref: 'main'
           token: ${{ secrets.PRIVATE_REPOSITORY_TOKEN }}
 
       - name: Execute main script
