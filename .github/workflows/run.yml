@@ -20,6 +20,11 @@ jobs:
       - name: Install Requirements
         run: pip install -r https://raw.githubusercontent.com/O-Isaac/FGO-Daily-Login/master/requirements.txt
 
+
+      - name: Keepalive Workflow
+        uses: gautamkrishnar/keepalive-workflow@1.1.0
+
+
       - name: Getting files from Repo
         uses: actions/checkout@v2
 
@@ -44,7 +49,4 @@ jobs:
           TGBotToken: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TGAdminId: ${{ secrets.TELEGRAM_ADMIN_ID }}
 
-      - name: Keepalive Workflow
-        uses: gautamkrishnar/keepalive-workflow@1.1.0
-            
             
