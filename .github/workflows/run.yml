@@ -20,13 +20,11 @@ jobs:
       - name: Install Requirements
         run: pip install -r https://raw.githubusercontent.com/O-Isaac/FGO-Daily-Login/master/requirements.txt
 
+      - name: Getting files from Repo
+        uses: actions/checkout@v2
 
       - name: Keepalive Workflow
         uses: gautamkrishnar/keepalive-workflow@1.1.0
-
-
-      - name: Getting files from Repo
-        uses: actions/checkout@v2
 
       - name: Get Private Repository
         uses: actions/checkout@v2
