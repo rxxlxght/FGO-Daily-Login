@@ -33,6 +33,7 @@ jobs:
       - name: Execute main script
         run: |
           python3 main.py
+          
         env:
           userIds: ${{ secrets.GAME_USERIDS }}
           authKeys: ${{ secrets.GAME_AUTHKEYS }}
