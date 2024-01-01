@@ -44,11 +44,4 @@ jobs:
           TGBotToken: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TGAdminId: ${{ secrets.TELEGRAM_ADMIN_ID }}
 
-      - name: Configure Git
-        run: |
-          git config --global user.email "rxxlxght@gmail.com"
-          git config --global user.name "rxxlxght"
-
-      - name: Keepalive Workflow
-        uses: gautamkrishnar/keepalive-workflow@1.1.0
             
